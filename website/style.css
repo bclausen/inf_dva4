@@ -87,8 +87,7 @@ a:hover  {  color: #000
       }
 
 #Kasten1:hover {
-      font-weight: bold;
-      background-color: black;
+      font-size: 60px;
 }
 #TH {
       font-size: 2px;
@@ -106,7 +105,7 @@ a:hover  {  color: #000
             visibility:visible; 
 
             letter-spacing: -0.015em;
-            line-height: 150px;
+            line-height: 100px;
             /*line-height: 2.0625;*/
             font-weight: 100;
             font-size:50px;
@@ -119,16 +118,16 @@ a:hover  {  color: #000
             left:0px; 
             height: 200px;
             z-index: 1;
-            background: #33FF33;
+            background: #3377FF;
             text-align:center;
             opacity: 0.8; /* Deckgrad */
             visibility:visible; 
 
             letter-spacing: -0.015em;
-            line-height: 150px;
+            line-height: 100px;
             /*line-height: 2.0625;*/
             font-weight: 100;
-            font-size:50px;
+            font-size:80px;
             text-rendering: optimizelegibility;
             color: #FFFFFF;
       }     
@@ -183,13 +182,34 @@ a:hover  {  color: #000
             visibility:visible; 
 
             letter-spacing: -0.015em;
-            line-height: 15px;
+            line-height: 37px;
             /*line-height: 2.0625;*/
             font-weight: 100;
             font-size:40px;
             text-rendering: optimizelegibility;
             color: navy;
       }
+
+#Kasten4:hover {  position:absolute;
+            top:350px;
+            left:0px; 
+            height: 200px;
+            z-index: 1;
+            background: #58ACFA;
+            text-align:center;
+            opacity: 1; /* Deckgrad */
+            visibility:visible; 
+            background-image: url(images/finn&Shakuta.jpg);
+
+            letter-spacing: -0.015em;
+            line-height: 37px;
+            /*line-height: 2.0625;*/
+            font-weight: 100;
+            font-size:40px;
+            text-rendering: optimizelegibility;
+            color: #fff;
+      }
+
 
 #Kasten5:hover {  position:absolute;
             top:550px;
@@ -309,6 +329,8 @@ a:hover  {  color: #000
 
 
 #Kasten9 {  background-image: url(images/lion.jpg);
+            background-position: center center;
+
             position:absolute;
             top:350px;
             left:0px; 
