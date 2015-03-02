@@ -452,7 +452,29 @@ a:hover  {  color: #000
             font-weight: 100;
             font-size:40px;
             text-rendering: optimizelegibility;
-            color: #fff;
+            color: #666666;
+      }
+
+#Kasten9:hover {  background-image: url(images/deadAnimal.jpg);
+            background-position: center center;
+
+            position:absolute;
+            top:350px;
+            left:0px; 
+            height: 200px;
+            z-index: 1;
+            /*background: rgba(0,0,0,0.6);*/
+            text-align:center;
+            opacity: 1;  /* Deckgrad */ 
+            visibility:visible; 
+
+            letter-spacing: -0.015em;
+            line-height: 37px;
+            /*line-height: 2.0625;*/
+            font-weight: 100;
+            font-size:40px;
+            text-rendering: optimizelegibility;
+            color: #888888;
       }
 
 #Kasten10 {  position:absolute;
