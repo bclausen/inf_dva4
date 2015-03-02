@@ -105,7 +105,11 @@ a:hover  {  color: #000
             visibility:visible; 
 
             letter-spacing: -0.015em;
+<<<<<<< HEAD
             line-height: 37px;
+=======
+            line-height: 150px;
+>>>>>>> origin/master
             /*line-height: 2.0625;*/
             font-weight: 100;
             font-size:50px;
@@ -118,13 +122,21 @@ a:hover  {  color: #000
             left:0px; 
             height: 200px;
             z-index: 1;
+<<<<<<< HEAD
             background: rgba(0,0,0,0.6);
+=======
+            background: #33FF33;
+>>>>>>> origin/master
             text-align:center;
             opacity: 1; /* Deckgrad */
             visibility:visible; 
 
             letter-spacing: -0.015em;
+<<<<<<< HEAD
             line-height: 37px;
+=======
+            line-height: 150px;
+>>>>>>> origin/master
             /*line-height: 2.0625;*/
             font-weight: 100;
             font-size:40px;
