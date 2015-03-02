@@ -86,6 +86,10 @@ a:hover  {  color: #000
             color: #fff;
       }
 
+#Kasten1:hover {
+      font-size: 60px;
+}
+
 #Kasten2 {  position:absolute;
             top:350px;
             left:0px; 
