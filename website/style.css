@@ -217,6 +217,7 @@ a:hover  {  color: #000
             font-size:40px;
             text-rendering: optimizelegibility;
             color: #fff;
+            background-color: pink;
       }
 
 #Kasten8 {  position:absolute;
