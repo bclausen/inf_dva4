@@ -88,6 +88,7 @@ a:hover  {  color: #000
 
 #Kasten1:hover {
       font-size: 60px;
+      background-color: black;
 }
 
 #Kasten2 {  position:absolute;
