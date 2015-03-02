@@ -392,7 +392,7 @@ a:hover  {  color: #000
             opacity: 1;  /* Deckgrad */ 
             visibility:visible; 
 <<<<<<< HEAD
-            background:-webkit-gradient(linear,left top,left bottom,from(#b3b3b3),to(#f1f1f1));;
+          
 =======
             background-color: red;
 
