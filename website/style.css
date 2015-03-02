@@ -86,11 +86,14 @@ a:hover  {  color: #000
             color: #fff;
       }
 
+<<<<<<< Updated upstream
 #Kasten1:hover {
-      font-size: 60px;
+      font-weight: bold;
       background-color: black;
 }
 
+=======
+>>>>>>> Stashed changes
 #Kasten2 {  position:absolute;
             top:350px;
             left:0px; 
@@ -102,7 +105,11 @@ a:hover  {  color: #000
             visibility:visible; 
 
             letter-spacing: -0.015em;
+<<<<<<< HEAD
+            line-height: 37px;
+=======
             line-height: 150px;
+>>>>>>> origin/master
             /*line-height: 2.0625;*/
             font-weight: 100;
             font-size:50px;
@@ -110,38 +117,26 @@ a:hover  {  color: #000
             color: #000000;
       }
 
-#Kasten2:hover {  position:absolute;
-            top:350px;
-            left:0px; 
-            height: 200px;
-            z-index: 1;
-            background: #33FF33;
-            text-align:center;
-            opacity: 0.8; /* Deckgrad */
-            visibility:visible; 
-
-            letter-spacing: -0.015em;
-            line-height: 150px;
-            /*line-height: 2.0625;*/
-            font-weight: 100;
-            font-size:50px;
-            text-rendering: optimizelegibility;
-            color: #FFFFFF;
-      }     
-
 #Kasten3 {  position:absolute;
             top:150px;
             left:0px; 
             height: 200px;
             z-index: 1;
+<<<<<<< HEAD
             background: rgba(0,0,0,0.6);
-            background-image: url(mjo.jpg);
+=======
+            background: #33FF33;
+>>>>>>> origin/master
             text-align:center;
             opacity: 1; /* Deckgrad */
             visibility:visible; 
 
             letter-spacing: -0.015em;
+<<<<<<< HEAD
             line-height: 37px;
+=======
+            line-height: 150px;
+>>>>>>> origin/master
             /*line-height: 2.0625;*/
             font-weight: 100;
             font-size:40px;
@@ -154,11 +149,36 @@ a:hover  {  color: #000
             left:0px; 
             height: 200px;
             z-index: 1;
+<<<<<<< HEAD
+            background: rgba(0,0,0,0.6);
+            background-image: url(mjo.jpg);
+=======
             background: #58ACFA;
+>>>>>>> origin/master
             text-align:center;
             opacity: 1; /* Deckgrad */
             visibility:visible; 
             background-color: red;
+
+            letter-spacing: -0.015em;
+            line-height: 37px;
+            /*line-height: 2.0625;*/
+            font-weight: 100;
+            font-size:40px;
+            text-rendering: optimizelegibility;
+            color: #fff;
+      }
+
+#Kasten4:hover {  position:absolute;
+            top:350px;
+            left:0px; 
+            height: 200px;
+            z-index: 1;
+            background: #58ACFA;
+            text-align:center;
+            opacity: 1; /* Deckgrad */
+            visibility:visible; 
+            background-color: green;
 
             letter-spacing: -0.015em;
             line-height: 37px;
@@ -245,25 +265,7 @@ a:hover  {  color: #000
             color: #fff;
             background-color: pink;
       }
-#Kasten7:hover {  position:absolute;
-            top:350px;
-            left:0px; 
-            height: 200px;
-            z-index: 1;
-            /*background: rgba(0,0,0,0.6);*/
-            text-align:center;
-            opacity: 1;  /* Deckgrad */ 
-            visibility:visible; 
 
-            letter-spacing: -0.015em;
-            line-height: 37px;
-            /*line-height: 2.0625;*/
-            font-weight: 100;
-            font-size:40px;
-            text-rendering: optimizelegibility;
-            color: #fff;
-            background-color: green;
-      }
 #Kasten8 {  position:absolute;
             top:0px;
             left:0px; 
@@ -305,13 +307,12 @@ a:hover  {  color: #000
       }
 
 
-#Kasten9 {  background-image: url(images/lion.jpg);
-            position:absolute;
+#Kasten9 {  position:absolute;
             top:350px;
             left:0px; 
             height: 200px;
             z-index: 1;
-            /*background: rgba(0,0,0,0.6);*/
+            background: rgba(0,0,0,0.6);
             text-align:center;
             opacity: 1;  /* Deckgrad */ 
             visibility:visible; 
