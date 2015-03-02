@@ -99,6 +99,10 @@ a:hover  {  color: #000
 #Kasten1:hover {
       font-size: 60px;
 }
+#TH {
+      font-size: 2px;
+      visibility: hidden;
+}
 
 >>>>>>> origin/master
 #Kasten2 {  position:absolute;
