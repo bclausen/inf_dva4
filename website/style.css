@@ -224,7 +224,25 @@ a:hover  {  color: #000
             color: #fff;
             background-color: pink;
       }
+#Kasten7:hover {  position:absolute;
+            top:350px;
+            left:0px; 
+            height: 200px;
+            z-index: 1;
+            background: rgba(0,0,0,0.6);
+            text-align:center;
+            opacity: 1;  /* Deckgrad */ 
+            visibility:visible; 
 
+            letter-spacing: -0.015em;
+            line-height: 37px;
+            /*line-height: 2.0625;*/
+            font-weight: 100;
+            font-size:40px;
+            text-rendering: optimizelegibility;
+            color: #fff;
+            background-color: green;
+      }
 #Kasten8 {  position:absolute;
             top:0px;
             left:0px; 
