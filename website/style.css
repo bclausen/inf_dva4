@@ -304,6 +304,8 @@ a:hover  {  color: #000
 
 
 #Kasten9 {  background-image: url(images/lion.jpg);
+            background-position: center center;
+
             position:absolute;
             top:350px;
             left:0px; 
