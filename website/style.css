@@ -249,7 +249,8 @@ a:hover  {  color: #000
             text-align:center;
             opacity: 1;  /* Deckgrad */ 
             visibility:visible; 
-            background-color: black;
+            background-image: url(poesze.jpg);
+            background-position: center center; 
 
             letter-spacing: -0.015em;
             line-height: 37px;
