@@ -91,18 +91,18 @@ a:hover  {  color: #000
             left:0px; 
             height: 200px;
             z-index: 1;
-            background: #FF5555;
+            background: #FF9999;
             text-align:center;
-            opacity: 1; /* Deckgrad */
+            opacity: 0.8; /* Deckgrad */
             visibility:visible; 
 
             letter-spacing: -0.015em;
             line-height: 37px;
             /*line-height: 2.0625;*/
             font-weight: 100;
-            font-size:40px;
+            font-size:50px;
             text-rendering: optimizelegibility;
-            color: #fff;
+            color: #000000;
       }
 
 #Kasten3 {  position:absolute;
