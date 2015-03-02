@@ -86,16 +86,6 @@ a:hover  {  color: #000
             color: #fff;
       }
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-#Kasten1:hover {
-      font-weight: bold;
-      background-color: black;
-}
-
-=======
->>>>>>> Stashed changes
-=======
 #Kasten1:hover {
       font-size: 60px;
 }
@@ -104,7 +94,6 @@ a:hover  {  color: #000
       visibility: hidden;
 }
 
->>>>>>> origin/master
 #Kasten2 {  position:absolute;
             top:350px;
             left:0px; 
@@ -116,15 +105,7 @@ a:hover  {  color: #000
             visibility:visible; 
 
             letter-spacing: -0.015em;
-<<<<<<< HEAD
-<<<<<<< HEAD
-            line-height: 37px;
-=======
-            line-height: 150px;
->>>>>>> origin/master
-=======
             line-height: 100px;
->>>>>>> origin/master
             /*line-height: 2.0625;*/
             font-weight: 100;
             font-size:50px;
@@ -132,8 +113,6 @@ a:hover  {  color: #000
             color: #000000;
       }
 
-<<<<<<< HEAD
-=======
 #Kasten2:hover {  position:absolute;
             top:350px;
             left:0px; 
@@ -153,36 +132,18 @@ a:hover  {  color: #000
             color: #FFFFFF;
       }     
 
->>>>>>> origin/master
 #Kasten3 {  position:absolute;
             top:150px;
             left:0px; 
             height: 200px;
             z-index: 1;
-<<<<<<< HEAD
-<<<<<<< HEAD
             background: rgba(0,0,0,0.6);
-=======
-            background: #33FF33;
->>>>>>> origin/master
-=======
-            background: rgba(0,0,0,0.6);
-            background-image: url(mjo.jpg);
->>>>>>> origin/master
             text-align:center;
             opacity: 1; /* Deckgrad */
             visibility:visible; 
 
             letter-spacing: -0.015em;
-<<<<<<< HEAD
-<<<<<<< HEAD
             line-height: 37px;
-=======
-            line-height: 150px;
->>>>>>> origin/master
-=======
-            line-height: 37px;
->>>>>>> origin/master
             /*line-height: 2.0625;*/
             font-weight: 100;
             font-size:40px;
@@ -210,30 +171,6 @@ a:hover  {  color: #000
             color: #fff;
       }
 
-#Kasten4:hover {  position:absolute;
-            top:350px;
-            left:0px; 
-            height: 200px;
-            z-index: 1;
-            background: #58ACFA;
-            text-align:center;
-            opacity: 1; /* Deckgrad */
-            visibility:visible; 
-<<<<<<< HEAD
-            background-color: green;
-=======
-            background-image: url(images/finn&Shakuta.jpg);
->>>>>>> origin/master
-
-            letter-spacing: -0.015em;
-            line-height: 37px;
-            /*line-height: 2.0625;*/
-            font-weight: 100;
-            font-size:40px;
-            text-rendering: optimizelegibility;
-            color: #fff;
-      }
-
 #Kasten5 {  position:absolute;
             top:550px;
             left:0px; 
@@ -245,11 +182,7 @@ a:hover  {  color: #000
             visibility:visible; 
 
             letter-spacing: -0.015em;
-<<<<<<< HEAD
-            line-height: 15px;
-=======
             line-height: 37px;
->>>>>>> origin/master
             /*line-height: 2.0625;*/
             font-weight: 100;
             font-size:40px;
@@ -257,10 +190,27 @@ a:hover  {  color: #000
             color: navy;
       }
 
-<<<<<<< HEAD
-=======
+#Kasten4:hover {  position:absolute;
+            top:350px;
+            left:0px; 
+            height: 200px;
+            z-index: 1;
+            background: #58ACFA;
+            text-align:center;
+            opacity: 1; /* Deckgrad */
+            visibility:visible; 
+            background-image: url(images/finn&Shakuta.jpg);
 
->>>>>>> origin/master
+            letter-spacing: -0.015em;
+            line-height: 37px;
+            /*line-height: 2.0625;*/
+            font-weight: 100;
+            font-size:40px;
+            text-rendering: optimizelegibility;
+            color: #fff;
+      }
+
+
 #Kasten5:hover {  position:absolute;
             top:550px;
             left:0px; 
@@ -278,8 +228,6 @@ a:hover  {  color: #000
             font-size:40px;
             text-rendering: optimizelegibility;
             color: green;
-            background-image: url(lol.jpeg);
-            background-position: center center;
       }      
 
 #Kasten6 {  position:absolute;
@@ -287,11 +235,7 @@ a:hover  {  color: #000
             left:0px; 
             height: 200px;
             z-index: 1;
-<<<<<<< HEAD
-            background: black;
-=======
             background: rgba(0,0,0,0.6);
->>>>>>> origin/master
             text-align:center;
             opacity: 1;  /* Deckgrad */ 
             visibility:visible; 
@@ -305,21 +249,12 @@ a:hover  {  color: #000
             color: #fff;
       }
 
-<<<<<<< HEAD
-      #Kasten6:hover {  position:absolute;
-            top:0px;
-            left:0px; 
-            height: 200px;
-            z-index: 1;
-            background: white;
-=======
 #Kasten7 {  position:absolute;
             top:350px;
             left:0px; 
             height: 200px;
             z-index: 1;
             background: rgba(0,0,0,0.6);
->>>>>>> origin/master
             text-align:center;
             opacity: 1;  /* Deckgrad */ 
             visibility:visible; 
@@ -331,38 +266,14 @@ a:hover  {  color: #000
             font-size:40px;
             text-rendering: optimizelegibility;
             color: #fff;
-<<<<<<< HEAD
-      }
-
-#kreis {    stroke-width: 1px;
-            stroke :#FFFFFF;
-            fill: black; }
-
-#N    {     fill: #FFFFFF;
-            opacity: 1.0;
-            font-size: 70pt; 
-            font-family:Arial;
-            font-weight:lighter; }
-
-#rect {     fill:white; 
-
-}
-
-#Kasten7 {  position:absolute;
-=======
             background-color: pink;
       }
 #Kasten7:hover {  position:absolute;
->>>>>>> origin/master
             top:350px;
             left:0px; 
             height: 200px;
             z-index: 1;
-<<<<<<< HEAD
-            background: rgba(0,0,0,0.6);
-=======
             /*background: rgba(0,0,0,0.6);*/
->>>>>>> origin/master
             text-align:center;
             opacity: 1;  /* Deckgrad */ 
             visibility:visible; 
@@ -374,14 +285,8 @@ a:hover  {  color: #000
             font-size:40px;
             text-rendering: optimizelegibility;
             color: #fff;
-<<<<<<< HEAD
-            background-image: url(nikolai.jpg);
-      }
-
-=======
             background-color: green;
       }
->>>>>>> origin/master
 #Kasten8 {  position:absolute;
             top:0px;
             left:0px; 
@@ -391,12 +296,8 @@ a:hover  {  color: #000
             text-align:center;
             opacity: 1;  /* Deckgrad */ 
             visibility:visible; 
-<<<<<<< HEAD
-          
-=======
             background-color: red;
 
->>>>>>> origin/master
             letter-spacing: -0.015em;
             line-height: 37px;
             /*line-height: 2.0625;*/
@@ -427,40 +328,10 @@ a:hover  {  color: #000
       }
 
 
-<<<<<<< HEAD
-#Kasten9 {  position:absolute;
-=======
 #Kasten9 {  background-image: url(images/lion.jpg);
             background-position: center center;
 
             position:absolute;
->>>>>>> origin/master
-            top:350px;
-            left:0px; 
-            height: 200px;
-            z-index: 1;
-<<<<<<< HEAD
-            background: rgba(0,0,0,0.6);
-=======
-            /*background: rgba(0,0,0,0.6);*/
->>>>>>> origin/master
-            text-align:center;
-            opacity: 1;  /* Deckgrad */ 
-            visibility:visible; 
-
-            letter-spacing: -0.015em;
-            line-height: 37px;
-            /*line-height: 2.0625;*/
-            font-weight: 100;
-            font-size:40px;
-            text-rendering: optimizelegibility;
-            color: #666666;
-      }
-
-#Kasten9:hover {  background-image: url(images/deadAnimal.jpg);
-            background-position: center center;
-
-            position:absolute;
             top:350px;
             left:0px; 
             height: 200px;
@@ -476,7 +347,7 @@ a:hover  {  color: #000
             font-weight: 100;
             font-size:40px;
             text-rendering: optimizelegibility;
-            color: #888888;
+            color: #fff;
       }
 
 #Kasten10 {  position:absolute;
@@ -534,9 +405,4 @@ a:hover  {  color: #000
             font-size:40px;
             text-rendering: optimizelegibility;
             color: #fff;
-<<<<<<< HEAD
       }
-    
-=======
-      }
->>>>>>> origin/master
