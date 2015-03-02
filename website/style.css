@@ -173,7 +173,7 @@ a:hover  {  color: #000
             text-align:center;
             opacity: 1; /* Deckgrad */
             visibility:visible; 
-            background-color: green;
+            background-image: url(images/finn&shakuta.jpg) ;
 
             letter-spacing: -0.015em;
             line-height: 37px;
