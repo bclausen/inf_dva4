@@ -101,7 +101,7 @@ a:hover  {  color: #000
             visibility:visible; 
 
             letter-spacing: -0.015em;
-            line-height: 37px;
+            line-height: 100px;
             /*line-height: 2.0625;*/
             font-weight: 100;
             font-size:50px;
@@ -120,7 +120,7 @@ a:hover  {  color: #000
             visibility:visible; 
 
             letter-spacing: -0.015em;
-            line-height: 50px;
+            line-height: 100px;
             /*line-height: 2.0625;*/
             font-weight: 100;
             font-size:50px;
