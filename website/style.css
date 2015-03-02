@@ -135,6 +135,7 @@ a:hover  {  color: #000
             height: 200px;
             z-index: 1;
             background: rgba(0,0,0,0.6);
+            background-image: url(mjo.jpg);
             text-align:center;
             opacity: 1; /* Deckgrad */
             visibility:visible; 
