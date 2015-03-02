@@ -249,6 +249,21 @@
           };
           
         }
+
+        function showFS() {
+             for (var i=1; i<=1; i++) {
+            document.getElementById('Kasten'+i).style.visibility="visible";
+            };
+
+        };
+
+        function hideFS() {
+             for (var i=2; i<=12; i++) {
+            document. getElementById('Kasten'+i).style.visibility="hidden";
+            };
+            //document.getElementById('TH').style.visibility="visible"
+            //document.getElementById('TH').style.fontSize="50px"
+        };
         
     </script>
   </head>
@@ -260,8 +275,8 @@
       <p>Lehrer</p>
       <p>GitHub: bclausen</p>
     </div>
-    <div id = "Kasten1">
-      <p></p>
+    <div id = "Kasten1" onmouseover = "hideFS()" >
+      <p id="TH">THUG LIFE</p>
       Finn und Wookie
     </div>
     <div id = "Kasten2">
