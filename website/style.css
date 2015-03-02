@@ -167,25 +167,6 @@ a:hover  {  color: #000
             color: #fff;
       }
 
-#Kasten5 {  position:absolute;
-            top:550px;
-            left:0px; 
-            height: 200px;
-            z-index: 1;
-            background: yellow;
-            text-align:center;
-            opacity: 0.8; /* Deckgrad */
-            visibility:visible; 
-
-            letter-spacing: -0.015em;
-            line-height: 37px;
-            /*line-height: 2.0625;*/
-            font-weight: 100;
-            font-size:40px;
-            text-rendering: optimizelegibility;
-            color: navy;
-      }
-
 #Kasten4:hover {  position:absolute;
             top:350px;
             left:0px; 
@@ -204,6 +185,25 @@ a:hover  {  color: #000
             font-size:40px;
             text-rendering: optimizelegibility;
             color: #fff;
+      }
+
+#Kasten5 {  position:absolute;
+            top:550px;
+            left:0px; 
+            height: 200px;
+            z-index: 1;
+            background: yellow;
+            text-align:center;
+            opacity: 0.8; /* Deckgrad */
+            visibility:visible; 
+
+            letter-spacing: -0.015em;
+            line-height: 37px;
+            /*line-height: 2.0625;*/
+            font-weight: 100;
+            font-size:40px;
+            text-rendering: optimizelegibility;
+            color: navy;
       }
 
 
