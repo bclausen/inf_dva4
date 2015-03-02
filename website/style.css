@@ -278,6 +278,7 @@ a:hover  {  color: #000
             font-size:40px;
             text-rendering: optimizelegibility;
             color: green;
+            background-image: url(lol.jpeg);
       }      
 
 #Kasten6 {  position:absolute;
