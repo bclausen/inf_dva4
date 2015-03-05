@@ -439,7 +439,9 @@ a:hover  {  color: #000
             opacity: 1;  /* Deckgrad */ 
             visibility:visible;       
             background-image: url(1658_0.jpg);
+            
             letter-spacing: -0.015em;
+
             line-height: 37px;
             /*line-height: 2.0625;*/
             font-weight: 100;
