@@ -367,7 +367,7 @@ a:hover  {  color: #000
 /* #################### !!! All Rights by Shakuta !!! #################### */
 #Kasten9 {  /*background-image: url(images/lion.jpg);*/
             background-position: center center;
-            background: linear-gradient(-45deg, red, #51FF00, blue);
+            background: radial-gradient(purple, blue, green, yellow, red, purple);
             /*background: #fff;*/
 
             position: absolute;
@@ -391,7 +391,7 @@ a:hover  {  color: #000
 
 #Kasten9:hover {  /*background-image: url(images/deadAnimal.jpg);*/
                   background-position: center center;
-                  background: linear-gradient(45deg, red, #51FF00, blue);
+                  background: radial-gradient(purple, red, yellow, green, blue, purple);
                   /*background: #fff;*/
 
                   position: absolute;
