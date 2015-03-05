@@ -364,37 +364,40 @@ a:hover  {  color: #000
 
 
 /* #################### !!! All Rights by Shakuta !!! #################### */
-#Kasten9 {  background-image: url(images/lion.jpg);
+#Kasten9 {  /*background-image: url(images/lion.jpg);*/
             background-position: center center;
+            background: linear-gradient(-45deg, red, #51FF00, blue);
+            /*background: #fff;*/
 
             position: absolute;
             top: 350px;
             left: 0px; 
             height: 200px;
             z-index: 1;
-            /*background: rgba(0,0,0,0.6);*/
             text-align: center;
             opacity: 1;  /* Deckgrad */ 
-            visibility: visible; 
+            visibility: visible;
 
             letter-spacing: -0.015em;
             line-height: 37px;
             /*line-height: 2.0625;*/
+            font-family: Verdana;
             font-weight: 250;
             font-size: 40px;
             text-rendering: optimizelegibility;
-            color: #888;
+            color: #777;
       }
 
-#Kasten9:hover {  background-image: url(images/deadAnimal.jpg);
+#Kasten9:hover {  /*background-image: url(images/deadAnimal.jpg);*/
                   background-position: center center;
+                  background: linear-gradient(45deg, red, #51FF00, blue);
+                  /*background: #fff;*/
 
                   position: absolute;
                   top: 350px;
                   left: 0px; 
                   height: 200px;
                   z-index: 1;
-                  /*background: rgba(0,0,0,0.6);*/
                   text-align: center;
                   opacity: 1;  /* Deckgrad */ 
                   visibility: visible; 
@@ -402,10 +405,11 @@ a:hover  {  color: #000
                   letter-spacing: -0.015em;
                   line-height: 37px;
                   /*line-height: 2.0625;*/
+                  font-family: Verdana;
                   font-weight: 250;
                   font-size: 40px;
                   text-rendering: optimizelegibility;
-                  color: red;
+                  color: #666;
             }
 /* #################### !!! All Rights by Shakuta !!! #################### */
 
