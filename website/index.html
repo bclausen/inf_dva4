@@ -249,10 +249,14 @@
           };
           
         }
+
+        function loadAnnikaMarek() {
+            document.getElementById("Kasten2").innerHTML='<object width="200" height="200" type="text/html" data="AnnikaMarek/index.html" ></object>';
+        }
         
     </script>
   </head>
-  <body onload="kasten_dim_pos()"; onresize = "kasten_dim_pos()";>
+  <body onload="kasten_dim_pos(); loadAnnikaMarek();"; onresize = "kasten_dim_pos()";>
     <div id = "topbar"> 
       GitHub - Benutzernamen Inf-Kurs dva4
     </div>
@@ -265,8 +269,7 @@
       Finn und Wookie
     </div>
     <div id = "Kasten2">
-      <p></p>
-      Annika
+
     </div>      
     <div id = "Kasten3">
       <p></p>

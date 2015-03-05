@@ -1,0 +1,42 @@
+:root {
+	--main-color: #555;
+}
+
+
+circle {
+	stroke-width: 2px;
+	stroke: var(--main-color);
+	fill: #080808;
+}
+
+circle.center {
+	fill: white;
+	stroke-width: 1px;
+	stroke: var(--main-color);
+}
+
+
+.hoursymbol {
+	fill: white;
+	stroke: var(--main-color);
+	stroke-width: 1px;
+}
+
+
+#handhours {
+	stroke: var(--main-color);
+	stroke-width: 1px;
+	fill: white;
+}
+
+#handmins {
+	stroke-width: 1px;
+	stroke: var(--main-color);
+	fill: white;
+}
+
+#handsecs {
+	stroke-width: 0px;
+	stroke: white;
+	fill: #FF3333;
+}
