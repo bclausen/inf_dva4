@@ -1,0 +1,155 @@
+body {
+      background-color: #fff;
+      font-style: normal;
+      /*font-family: "Myriad Set Pro","Lucida Grande","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";*/
+
+      font-family: sans-serif ;
+      font-size: 14px;
+      margin: 0; padding: 0;
+      text-align: center;
+}
+
+#topbar           {
+      background-color: lightgrey;
+      border-bottom: 1px solid #666;
+      display: block;
+      font-size: 16px;
+      padding: 10px 0;
+      text-align: center;
+      text-decoration: none;
+      color: #fff;
+}
+
+h1 {
+      
+}
+
+h2 {
+      
+}
+
+a     {     font-family: arial;
+            color: #999; 
+            text-decoration: none;  /* Normale Textdekoration*/
+            text-transform: uppercase;  /* */
+      }
+a:hover  {  color: #000
+      }
+
+#bgImage {  background-image: url(nyc.jpg);
+            background-position: center center; /*vertkal und horizontal zentriert */
+            background-size: cover; /*Hintergrundbild wird so skaliert, dass immer gesamter Bereich gefüllt ist */
+            overflow: hidden; /* Inhalt wird abgeschnitten, wenn Grenzen überschritten werden*/
+            position: fixed; /* absolute Positionierung, gemessen am Browserfenster. Bleibt beim Scrollen stehen.  */
+            width: 100%;
+            height: 100%;
+            z-index: 1; /* Reihenfolge von überlappenden Elementen bestimmen */
+            top: 0px;
+            left: 0px;
+            background-attachment: scroll;
+
+        }
+
+#Kasten {   position:absolute;
+            top:150px;
+            left:0px; 
+            height: 400px;
+            z-index: 1;
+            background-color: lightgrey;
+            text-align:center;
+            opacity: 1; /* Deckgrad */
+            visibility:visible; 
+            letter-spacing: -0.015em;
+            line-height: 1.2625;
+            font-weight: 200;
+            font-size:72px;
+            text-rendering: optimizelegibility;
+            color: #fff;
+      }
+
+#Kasten1 {  position:absolute;
+            top:150px;
+            left:0px; 
+            height: 200px;
+            z-index: 1;
+            background-color: lightgrey;
+            text-align:center;
+            opacity: 1; /* Deckgrad */
+            visibility:visible; 
+
+            letter-spacing: -0.015em;
+            line-height: 37px;
+            /*line-height: 2.0625;*/
+            font-weight: 100;
+            font-size:30px;
+            text-rendering: optimizelegibility;
+            color: #fff;
+      }
+
+
+
+#Kasten2 {  position:absolute;
+            top:350px;
+            left:0px; 
+            height: 200px;
+            z-index: 1;
+            background-color: lightgrey;
+            text-align:center;
+            opacity: 0.8; /* Deckgrad */
+            visibility:visible; 
+
+            letter-spacing: -0.015em;
+            line-height: 100px;
+            /*line-height: 2.0625;*/
+            font-weight: 100;
+            font-size:50px;
+            text-rendering: optimizelegibility;
+            color: #000000;
+      }
+
+
+
+#Kasten3 {  position:absolute;
+            top:150px;
+            left:0px; 
+            height: 200px;
+            z-index: 1;
+            background-color: lightgrey;
+            text-align:center;
+            opacity: 1; /* Deckgrad */
+            visibility:visible; 
+                        
+            letter-spacing: -0.015em;
+            line-height: 37px;
+            /*line-height: 2.0625;*/
+            font-weight: 100;
+            font-size:40px;
+            text-rendering: optimizelegibility;
+            color: #fff;
+      }
+
+
+
+#Kasten4 {  position:absolute;
+            top:350px;
+            left:0px; 
+            height: 200px;
+            z-index: 1;
+            background-color: lightgrey;
+            text-align:center;
+            opacity: 1; /* Deckgrad */
+            visibility:visible; 
+            
+
+            letter-spacing: -0.015em;
+            line-height: 37px;
+            /*line-height: 2.0625;*/
+            font-weight: 100;
+            font-size:40px;
+            text-rendering: optimizelegibility;
+            color: #fff;
+      }
+
+
+
+

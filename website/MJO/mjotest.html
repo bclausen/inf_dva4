@@ -1,0 +1,147 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>wazzup</title>
+    <link href="mjo.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+        function kasten_dim_pos() {
+          // Groesse des Kastens wird relativ zum Fenster bestimmt
+          if (window.innerWidth > 1440) {
+            document.getElementById ('Kasten').style.width = 400;
+            document.getElementById ('Kasten').style.fontSize = 62;
+            document.getElementById ('Kasten1').style.width = 200;
+            document.getElementById ('Kasten1').style.fontSize = 30;
+            document.getElementById ('Kasten2').style.width = 200;
+            document.getElementById ('Kasten2').style.fontSize = 40;
+            document.getElementById ('Kasten3').style.width = 200;
+            document.getElementById ('Kasten3').style.fontSize = 40;
+            document.getElementById ('Kasten4').style.width = 200;
+            document.getElementById ('Kasten4').style.fontSize = 40;
+
+            Kastenweite = 400;
+            KastenKleinweite = 200;
+          };
+
+          if (650 < window.innerWidth && window.innerWidth < 1440) {
+            Kastenweite = window.innerWidth/3.6;
+            KastenKleinweite = window.innerWidth/7.2;
+            Schriftklein = window.innerWidth/36;
+            Schriftgross = window.innerWidth/23;
+            document.getElementById ('Kasten').style.width = Kastenweite;
+            document.getElementById ('Kasten').style.height = Kastenweite;
+            document.getElementById ('Kasten').style.fontSize = Schriftgross;
+            document.getElementById ('Kasten1').style.width = KastenKleinweite;
+            document.getElementById ('Kasten1').style.height = KastenKleinweite;
+            document.getElementById ('Kasten1').style.fontSize = Schriftklein;
+            document.getElementById ('Kasten2').style.width = KastenKleinweite;
+            document.getElementById ('Kasten2').style.height = KastenKleinweite;
+            document.getElementById ('Kasten2').style.fontSize = Schriftklein;
+            document.getElementById ('Kasten3').style.width = KastenKleinweite;
+            document.getElementById ('Kasten3').style.height = KastenKleinweite;
+            document.getElementById ('Kasten3').style.fontSize = Schriftklein;
+            document.getElementById ('Kasten4').style.width = KastenKleinweite;
+            document.getElementById ('Kasten4').style.height = KastenKleinweite;
+            document.getElementById ('Kasten4').style.fontSize = Schriftklein;
+
+          };
+          
+          if (window.innerWidth < 651) {
+            Kastenweite = window.innerWidth-40;
+            KastenKleinweite = window.innerWidth-40;
+            KastenKleinhoehe = 100;
+            document.getElementById ('Kasten').style.width = Kastenweite;
+            document.getElementById ('Kasten').style.height = KastenKleinhoehe;
+            document.getElementById ('Kasten').style.fontSize = 42;
+            document.getElementById ('Kasten1').style.width = KastenKleinweite;
+            document.getElementById ('Kasten1').style.height = KastenKleinhoehe;
+            document.getElementById ('Kasten1').style.fontSize = 40;
+            document.getElementById ('Kasten2').style.width = KastenKleinweite;
+            document.getElementById ('Kasten2').style.height = KastenKleinhoehe;
+            document.getElementById ('Kasten2').style.fontSize = 40;
+            document.getElementById ('Kasten3').style.width = KastenKleinweite;
+            document.getElementById ('Kasten3').style.height = KastenKleinhoehe;
+            document.getElementById ('Kasten3').style.fontSize = 40;
+            document.getElementById ('Kasten4').style.width = KastenKleinweite;
+            document.getElementById ('Kasten4').style.height = KastenKleinhoehe;
+            document.getElementById ('Kasten4').style.fontSize = 40;
+
+
+          };
+
+          // Kasten werden positioniert
+          if (window.innerWidth > 650) {
+            var Kasten_left = window.innerWidth/2-Kastenweite/2;
+            document.getElementById ('Kasten').style.left = Kasten_left;
+            // linke Seite
+            var Kasten1_left = window.innerWidth/2-Kastenweite/2-KastenKleinweite-10;
+            document.getElementById ('Kasten1').style.left = Kasten1_left;
+            var Kasten1_top = 150;
+              document.getElementById ('Kasten1').style.top = Kasten1_top;
+              
+            if (window.innerWidth > 768) {
+                var Kasten2_left = Kasten1_left - KastenKleinweite-10;
+                document.getElementById ('Kasten2').style.left = Kasten2_left;
+                var Kasten2_top = 150 + KastenKleinweite;
+                document.getElementById ('Kasten2').style.top = Kasten2_top;
+                
+            } 
+            else{
+                var Kasten2_left = Kasten1_left;
+                document.getElementById ('Kasten2').style.left = Kasten2_left;
+                var Kasten2_top = 150 + 4*KastenKleinweite;
+                document.getElementById ('Kasten2').style.top = Kasten2_top;
+                
+            }; 
+            // rechte Seite
+            var Kasten3_left = window.innerWidth/2+Kastenweite/2+10;
+            document.getElementById ('Kasten3').style.left = Kasten3_left;
+            var Kasten3_top = 150;
+            document.getElementById ('Kasten3').style.top = Kasten3_top;
+            var Kasten4_left = Kasten3_left;
+            document.getElementById ('Kasten4').style.left = Kasten4_left;
+            var Kasten4_top = 150 + KastenKleinweite;
+            document.getElementById ('Kasten4').style.top = Kasten4_top;
+            
+
+          };
+          if (window.innerWidth < 651) {
+            var Kasten_left = window.innerWidth/2-Kastenweite/2;
+            document.getElementById ('Kasten').style.left = Kasten_left;
+            document.getElementById ('Kasten1').style.left = Kasten_left;
+            document.getElementById ('Kasten1').style.top = 150+1*KastenKleinhoehe+1*10;
+            document.getElementById ('Kasten2').style.left = Kasten_left;
+            document.getElementById ('Kasten2').style.top = 150+2*KastenKleinhoehe+2*10;
+            document.getElementById ('Kasten3').style.left = Kasten_left;
+            document.getElementById ('Kasten3').style.top = 150+3*KastenKleinhoehe+3*10;
+            document.getElementById ('Kasten4').style.left = Kasten_left;
+            document.getElementById ('Kasten4').style.top = 150+4*KastenKleinhoehe+4*10;
+
+          
+        }
+
+        
+    </script>
+  </head>
+  <body onload="kasten_dim_pos()"; onresize = "kasten_dim_pos()";>
+<div id = "topbar"> 
+      copypasterino
+    </div>
+    <div id = "Kasten">
+      <p> swag</p>
+    </div>
+    <div id = "Kasten1">
+      <p></p>
+      
+    </div>
+    <div id = "Kasten2">
+
+    </div>      
+    <div id = "Kasten3">
+      <p></p>
+     
+    </div>
+    <div id = "Kasten4" >
+      <p></p>
+    </div>
+  </body>
+</html>
