@@ -301,7 +301,7 @@ a:hover  {  color: #000
             font-size:40px;
             text-rendering: optimizelegibility;
             color: #fff;
-            background-color: blue;
+            background-image: url(pfeil.jpg);
       }
 #Kasten7:hover {  position:absolute;
             top:350px;
