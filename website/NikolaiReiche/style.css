@@ -272,16 +272,20 @@
 					font-size: 20px;
 					}	
 
-#kreis { 	position: relative;
+#kreis { 	content:url(car.png);
+			position: relative;
 			width: 50px;
 			height: 25px;
+			z-index: 1;
 			
 			
 
 }
-#kreis:hover { 	position: relative;
-			width: 30px;
-			height: 15px;
+#kreis:hover { 	
+			content:url(leon.jpg);
+			position: relative;
+			width: 50px;
+			height: 25px;
 			/*visibility: hidden;*/
 			}
 /*#kreise {
