@@ -458,6 +458,7 @@ a:hover  {  color: #000
             opacity: 1;  /* Deckgrad */ 
             visibility:visible;       
             background-image: url(images/1658_0.jpg);
+             background-position: center center;
             
             letter-spacing: -0.015em;
 
