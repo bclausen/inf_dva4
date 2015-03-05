@@ -249,6 +249,20 @@ a:hover  {  color: #000
             color: #fff;
       }
 
+#kreis {    stroke-width: 1px;
+            stroke :#FFFFFF;
+            fill: black; }
+
+#N    {     fill: #FFFFFF;
+            opacity: 1.0;
+            font-size: 70pt; 
+            font-family:Arial;
+            font-weight:lighter; }
+
+#rect {     fill:white; 
+
+}
+
 #Kasten7 {  position:absolute;
             top:350px;
             left:0px; 
