@@ -241,12 +241,12 @@ a:hover  {  color: #000
             visibility:visible; 
 
             letter-spacing: -0.015em;
-            line-height: 40px;
+            line-height: 20px;
             /*line-height: 2.0625;*/
             font-weight: 100;
             font-size:70px;
             text-rendering: optimizelegibility;
-            color: ;
+            color: navy;
             background-image: url(images/stonehenge.jpg);
             background-position: center center;
       }      
