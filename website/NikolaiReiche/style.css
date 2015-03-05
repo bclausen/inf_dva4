@@ -279,6 +279,11 @@
 			
 
 }
+#kreis:hover { 	position: relative;
+			width: 30px;
+			height: 15px;
+			/*visibility: hidden;*/
+			}
 /*#kreise {
 	position: absolute;
 	top: 450px
