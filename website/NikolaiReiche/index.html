@@ -17,11 +17,11 @@
 					if (test > window.innerWidth+15){
 						geschw = geschw * -1
 						// document.getElementById('kreis').style.
-						document.getElementById('kreis').setAttribute('src','car2.png')
+						document.getElementById('kreis').style.content="url(car2.png)";
 					};
 					if (test < -80){
 						geschw = geschw * -1
-						document.getElementById('kreis').setAttribute('src','car.png')
+						document.getElementById('kreis').style.content="url(car.png)";
 
 					};
 
@@ -98,7 +98,7 @@
 		
 		<div id="hintergrundbild"; >
 			<div id="kreise"    />
-			<img id="kreis"; src="car.png"/>
+			<img id="kreis"; />
 			</div>
 		</div> 	
 
