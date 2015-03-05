@@ -1,0 +1,123 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>rags-to-rich</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript">
+			
+				 test = 100
+				 geschw = 2
+				function bewegen(){
+					document.getElementById('kreis').style.top = window.innerHeight-22;
+					var eins = document.getElementById('kreis').style.left;
+					var richtung = 1 
+					
+					test = test + geschw
+					document.getElementById('kreis').style.left = test;
+					if (test > window.innerWidth+15){
+						geschw = geschw * -1
+						// document.getElementById('kreis').style.
+						document.getElementById('kreis').setAttribute('src','car2.png')
+					};
+					if (test < -80){
+						geschw = geschw * -1
+						document.getElementById('kreis').setAttribute('src','car.png')
+
+					};
+
+				};
+			function kasten_dim_pos() {
+				setInterval(bewegen,10);
+				if (550 < window.innerWidth && window.innerWidth < 1970){
+					var Kastenweite = window.innerWidth/5;
+					var Kasten_left = window.innerWidth/2-Kastenweite/1.25;
+					var Position_hoehe = window.innerHeight/4
+					var textgr = window.innerWidth/25
+					//KastenEins:
+					document.getElementById ('kasten1').style.left = Kasten_left
+					document.getElementById ('kasten1').style.width = Kastenweite
+					document.getElementById ('kasten1').style.height = Kastenweite
+					document.getElementById ('kasten1').style.top = Position_hoehe
+					document.getElementById ('kasten1').style.fontSize = textgr
+					// //KastenZwei:
+					document.getElementById ('kasten2').style.left = Kasten_left-1.2*Kastenweite
+					document.getElementById ('kasten2').style.width = Kastenweite
+					document.getElementById ('kasten2').style.height = Kastenweite
+					document.getElementById ('kasten2').style.top = Position_hoehe
+					document.getElementById ('kasten2').style.fontSize = textgr
+					//Kastendrei:
+					document.getElementById ('kasten3').style.left = Kasten_left-1.2*Kastenweite
+					document.getElementById ('kasten3').style.width = Kastenweite*2.2
+					document.getElementById ('kasten3').style.height = Kastenweite*0.5
+					document.getElementById ('kasten3').style.top = Position_hoehe+1.2*Kastenweite
+					document.getElementById ('kasten3').style.fontSize = textgr
+					//KastenVier:
+					document.getElementById ('kasten4').style.left = Kasten_left+1.2*Kastenweite
+					document.getElementById ('kasten4').style.width = Kastenweite*1.7
+					document.getElementById ('kasten4').style.height = Kastenweite*1.7
+					document.getElementById ('kasten4').style.top = Position_hoehe
+					document.getElementById ('kasten4').style.fontSize = textgr
+					//Menü:
+					document.getElementById ('menue').style.width =Kastenweite*5
+
+			};
+				// Handylayout
+				if ((window.innerWidth < 551)||(navigator.userAgent.match(/Android/i))||((navigator.userAgent.match(/Phone/i))) ) {
+					var Kastenweiten = window.innerWidth/1.2;
+					var Kasten_leftn = window.innerWidth/10;
+					var Position_hoehen = window.innerHeight/4
+					var Kasten_hoehen = window.innerHeight/8
+					//KastenEins:
+					document.getElementById ('kasten1').style.left = Kasten_leftn
+					document.getElementById ('kasten1').style.width = Kastenweiten
+					document.getElementById ('kasten1').style.height = Kasten_hoehen
+					document.getElementById ('kasten1').style.top = Position_hoehen
+					//KastenZwei:
+					document.getElementById ('kasten2').style.left = Kasten_leftn
+					document.getElementById ('kasten2').style.width = Kastenweiten
+					document.getElementById ('kasten2').style.height = Kasten_hoehen
+					document.getElementById ('kasten2').style.top = Position_hoehen+Kasten_hoehen*1.03
+					//Kastendrei:
+					document.getElementById ('kasten3').style.left = Kasten_leftn
+					document.getElementById ('kasten3').style.width = Kastenweiten
+					document.getElementById ('kasten3').style.height = Kasten_hoehen
+					document.getElementById ('kasten3').style.top = Position_hoehen+Kasten_hoehen*2.06
+					//KastenVier:
+					document.getElementById ('kasten4').style.left = Kasten_leftn
+					document.getElementById ('kasten4').style.width = Kastenweiten
+					document.getElementById ('kasten4').style.height = Kasten_hoehen
+					document.getElementById ('kasten4').style.top = Position_hoehen+Kasten_hoehen*3.09
+					//Menü:
+					document.getElementById ('menue').style.width =Kastenweiten*1.2
+					}
+
+				} 
+		</script>		
+	</head>
+	<body onload="kasten_dim_pos()"; onresize="kasten_dim_pos()"; >
+		
+		<div id="hintergrundbild"; >
+			<div id="kreise"    />
+			<img id="kreis"; src="car.png"/>
+			</div>
+		</div> 	
+
+		<a id="kasten1"; href="eins.html">
+			
+		</a>
+		<a id="kasten2"; href="zwei.html">
+			
+
+		</a>		
+		<a id="kasten3" ; href="drei.html">
+					
+		</a>
+		<a id="kasten4" ; href="vier.html">
+			
+		</a>		
+		<div id="menue">
+			rags-to-rich
+		</div>	
+		
+	</body>
+</html>		

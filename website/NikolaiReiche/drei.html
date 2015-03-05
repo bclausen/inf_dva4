@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>rags-to-rich</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript">
+			function kasten_dim_pos() {
+				if (550 < window.innerWidth && window.innerWidth < 1970){
+					var Kastenweite = window.innerWidth/5;
+					var Kasten_left = window.innerWidth/2-Kastenweite/1.25;
+					var Position_hoehe = window.innerHeight/4
+					//KastenEins:
+					document.getElementById ('test').style.left = Kasten_left-Kastenweite/1.5
+					document.getElementById ('test').style.width = Kastenweite*3
+					document.getElementById ('test').style.height = Kastenweite
+					document.getElementById ('test').style.top = Position_hoehe
+				
+					//Menü:
+					document.getElementById ('menue').style.width =Kastenweite*5
+
+			};
+				// Handylayout
+				if (window.innerWidth < 551) {
+					var Kastenweiten = window.innerWidth/1.2;
+					var Kasten_leftn = window.innerWidth/10;
+					var Position_hoehen = window.innerHeight/6
+					var Kasten_hoehen = window.innerHeight/8
+					//KastenEins:
+					document.getElementById ('test').style.left = Kasten_leftn
+					document.getElementById ('test').style.width = Kastenweiten
+					document.getElementById ('test').style.height = Kasten_hoehen
+					document.getElementById ('test').style.top = Position_hoehen
+				
+					//Menü:
+					document.getElementById ('menue').style.width =Kastenweiten*1.2
+					}
+
+				} 
+		</script>		
+	</head>
+	<body onload="kasten_dim_pos()"; onresize="kasten_dim_pos()">
+		<div id="hintergrundbild">
+		</div> 	
+		
+		<div id="test">
+			<p> 3
+			
+			</p>
+		</div>
+			
+		<a id="menue"; href="index.html">
+			rags-to-rich
+		</a>
+
+	</body>
+</html>		

@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>rags-to-rich</title>
+		<link href="styleeins.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript">
+			function kreisaendern() {
+			// 	var radius = document.getElementById('kreis').getAttribute('r')
+			// 	if (radius < 75){
+			// 	document.getElementById('kreis').setAttribute('r',75)};
+			// 	if (radius > 50){
+			// 	document.getElementById('kreis').setAttribute('r',50)}	;
+				
+			// }
+
+				setInterval(bewegen,10);
+			};
+				 test = 100
+				 geschw = 1.5
+				function bewegen(){
+					var eins = document.getElementById('kreis').style.left;
+					var richtung = 1 
+					
+					test = test + geschw
+					document.getElementById('kreis').style.left = test;
+					if (test > window.innerWidth){
+						geschw = geschw * -1
+					};
+					if (test < 0){
+						geschw = geschw * -1
+					};
+
+				};
+				
+		 </script>	
+	</head>
+	<body onload="kreisaendern()">
+		<div id="kreise";>
+			<img id="kreis"; src="car.png"/>
+		</div> 	
+	</body>
+</html>		
