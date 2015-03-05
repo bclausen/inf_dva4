@@ -248,7 +248,7 @@ a:hover  {  color: #000
             text-rendering: optimizelegibility;
             color: ;
             background-image: url(stonehenge.jpg);
-            background-position: center center
+            background-position: center center;
       }      
 
 #Kasten6 {  position:absolute;
