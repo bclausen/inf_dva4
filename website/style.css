@@ -179,7 +179,7 @@ a:hover  {  color: #000
             text-align:center;
             opacity: 1; /* Deckgrad */
             visibility:visible; 
-            background-color: red;
+            background-image: url(images/bozzz.jpg) ;
 
             letter-spacing: -0.015em;
             line-height: 37px;
